@@ -1,7 +1,7 @@
 # AdaAX: Explaining Recurrent Neural Networks by Learning Automata with Adaptive States.
 Welcome to the official repository of AdaAX. The code has been uploaded. You can run the code in the "synthetic" folder to generate the results for "11111" application. The code for text application will be uploaded later. I need to process the text data first because it is too big to upload.
 
-Here are the instructions:
+Please make sure you have Anaconda3 and Pytorch installed. Also, pythomata https://pypi.org/project/pythomata/ is needed for visualizing the DFA (installed by 'pip install pythomata'). Here are the instructions:
 1) (Optional) Run the "utils.py" first to generate the dataset in "x.csv" and "y.csv" files. These files are uploaded too.
 2) Run the "train_model.py" to train the model. It is advisable to wait until the accuracy is close to 1 (the higher accuracy, the better DFA can be generated)
 3) Run the "load_model.py" to generate the temporary data files.

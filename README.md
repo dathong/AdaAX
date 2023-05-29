@@ -1,2 +1,11 @@
 # AdaAX: Explaining Recurrent Neural Networks by Learning Automata with Adaptive States.
-Welcome to the official repository of AdaAX. The code will be uploaded soon.
+Welcome to the official repository of AdaAX. The code has been uploaded. You can run the code in the "synthetic" folder to generate the results for "11111" application. The code for text application will be uploaded later. I need to process the text data first because it is too big to upload.
+
+Here are the instructions:
+1) (Optional) Run the "utils.py" first to generate the dataset in "x.csv" and "y.csv" files. These files are uploaded too.
+2) Run the "train_model.py" to train the model. It is advisable to wait until the accuracy is close to 1 (the higher accuracy, the better DFA can be generated)
+3) Run the "load_model.py" to generate the temporary data files.
+4) Run the "gen_rules_cluster_dfs.py" to generate the rules file ("inputs.txt")
+5) Run the "dfa.py" to generate the DFA (will be in "vis.svg" file)
+
+Please feel free to contact me at "hongtiendat@gmail.com" if you have any questions.

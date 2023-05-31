@@ -100,13 +100,12 @@ for i in range(len(point_data)):
 result_paths = []
 def dfs(focal_points, path):
     prev_point_dict, prev_point_count, focal_point_dict, prev_point_cluster = {}, {}, {}, {}
+    prev_ids, current_ids = [],[]
+    for pid in focal_points:
+        if id_to_points[pid].prev_id not in focal_points and id_to_points[pid].prev_id != -1:
+            prev_ids.append(id_to_points[pid].prev_id)
+            current_ids.append(pid)
 
-    prev_ids = [id_to_points[pid].prev_id for pid in focal_points
-                if id_to_points[pid].prev_id not in focal_points
-                and id_to_points[pid].prev_id != -1]
-    current_ids = [pid for pid in focal_points
-                   if id_to_points[pid].prev_id not in focal_points
-                   and id_to_points[pid].prev_id != -1]
     for i, prev_id in enumerate(prev_ids):
         my_add_dict(prev_point_cluster, id_to_points[prev_id].cluster, prev_id)
 
@@ -133,8 +132,11 @@ def dfs(focal_points, path):
         dfs(prev_point_dict[k], path + [k])
 # print("end while")
 dfs(pos_points, [])
+#optional - sort the patterns from short to long so the merging is easier
 result_paths = sorted(result_paths,key=len)
 print("result paths = ",result_paths)
+
+#write the patterns
 path_file = open("inputs.txt","w")
 for p in result_paths:
     writepath = ",".join([str(e) for e in p])

@@ -1,0 +1,120 @@
+digraph {
+	fake [style=invisible]
+	12
+	8
+	18
+	33
+	1
+	32
+	17
+	E [shape=doublecircle]
+	22
+	21
+	5
+	23
+	9
+	25
+	29
+	14
+	4
+	15
+	31
+	26
+	19
+	16
+	10
+	30
+	13
+	11
+	7
+	24
+	2
+	27
+	S [root=true]
+	28
+	3
+	6
+	20
+	fake -> S [style=bold]
+	S -> E [label=beautiful]
+	S -> S [label=i]
+	6 -> 7 [label=place]
+	S -> 12 [label=loved]
+	32 -> E [label=and]
+	S -> E [label=outstanding]
+	S -> 4 [label=good]
+	S -> E [label=favorite]
+	S -> 32 [label=friendly]
+	S -> 22 [label=absolutely]
+	5 -> E [label=good]
+	S -> E [label=awesome]
+	S -> E [label=fantastic]
+	S -> 19 [label=hands]
+	10 -> E [label=here]
+	33 -> E [label=delicious]
+	22 -> E [label=love]
+	S -> E [label=delicious]
+	S -> 6 [label=this]
+	S -> E [label=perfect]
+	S -> 33 [label=so]
+	S -> 15 [label=one]
+	S -> S [label=always]
+	4 -> 5 [label=food]
+	S -> E [label=lovely]
+	13 -> E [label=awesome]
+	S -> E [label=fun]
+	26 -> E [label=in]
+	S -> 11 [label=cool]
+	20 -> E [label=best]
+	17 -> 18 [label=favorite]
+	29 -> E [label=place]
+	22 -> E [label=amazing]
+	13 -> E [label=amazing]
+	26 -> E [label=place]
+	14 -> E [label=favorite]
+	4 -> E [label=and]
+	S -> E [label=must]
+	31 -> E [label=place]
+	16 -> 17 [label=my]
+	S -> 27 [label=we]
+	21 -> E [label=best]
+	19 -> 20 [label=down]
+	S -> E [label=try]
+	S -> 13 [label=is]
+	8 -> E [label=amazing]
+	E -> E [label=good]
+	12 -> E [label=this]
+	9 -> 10 [label=time]
+	23 -> 24 [label=best]
+	S -> S [label=very]
+	7 -> 8 [label=is]
+	20 -> 21 [label=the]
+	S -> 9 [label=first]
+	S -> 14 [label=my]
+	S -> E [label=best]
+	S -> E [label=amazing]
+	S -> E [label=yummy]
+	30 -> 31 [label=great]
+	S -> E [label=excellent]
+	16 -> 23 [label=the]
+	S -> E [label=great]
+	22 -> E [label=delicious]
+	11 -> E [label=place]
+	S -> E [label=love]
+	S -> E [label=yum]
+	28 -> 29 [label=this]
+	S -> E [label=nice]
+	5 -> E [label=and]
+	6 -> 30 [label=is]
+	27 -> 28 [label=love]
+	S -> 25 [label=the]
+	S -> E [label=wonderful]
+	12 -> E [label=it]
+	8 -> E [label=awesome]
+	24 -> E [label=in]
+	18 -> E [label=places]
+	5 -> E [label=great]
+	15 -> 16 [label=of]
+	25 -> 26 [label=best]
+	4 -> E [label=pizza]
+}

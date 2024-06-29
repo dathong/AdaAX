@@ -11,3 +11,9 @@ Please make sure you have Anaconda3 and Pytorch installed. We use Tensorflow 1.x
 5) Run the "dfa.py" to generate the DFA (will be in "vis.svg" file)
 
 Please feel free to contact me at "hongtiendat@gmail.com" if you have any questions.
+
+# Sample DFAs
+
+![](/imgs/dfa1.png)
+![](/imgs/dfa2.png)
+![](/imgs/dfa3.png)

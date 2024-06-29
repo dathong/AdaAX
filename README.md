@@ -1,5 +1,7 @@
 # AdaAX: Explaining Recurrent Neural Networks by Learning Automata with Adaptive States.
-Welcome to the official repository of AdaAX. The code has been uploaded. You can run the code in the "synthetic" folder to generate the results for "11111" application. Updated: The code for Yelp Review application is uploaded. The running steps are still the same.
+Welcome to the official repository of the paper  [AdaAX: Explaining Recurrent Neural Networks by Learning Automata with Adaptive States] (https://dl.acm.org/doi/abs/10.1145/3534678.3539356) 
+
+The code has been uploaded. You can run the code in the "synthetic" folder to generate the results for "11111" application. Updated: The code for Yelp Review application is uploaded. The running steps are still the same.
 
 Please make sure you have Anaconda3 and Pytorch installed. We use Tensorflow 1.x for the experiments. Also, pythomata https://pypi.org/project/pythomata/ is needed for visualizing the DFA (installed by 'pip install pythomata'). Here are the instructions:
 1) (Optional) Run the "utils.py" first to generate the dataset in "x.csv" and "y.csv" files. These files are uploaded too.

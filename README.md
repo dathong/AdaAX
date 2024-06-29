@@ -14,6 +14,7 @@ Please feel free to contact me at "hongtiendat@gmail.com" if you have any questi
 
 # Sample DFAs
 
-![](/imgs/dfa1.png)
-![](/imgs/dfa2.png)
-![](/imgs/dfa3.png)
+<img src="/imgs/dfa1.png" width="500" height="150">
+<img src="/imgs/dfa2.png" width="300" height="100">
+<img src="/imgs/dfa3.png" width="400" height="800">
+
